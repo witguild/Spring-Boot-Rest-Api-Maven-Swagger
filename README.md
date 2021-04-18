@@ -34,3 +34,12 @@
 - Api is accessible at 
 
   GET: http://localhost:8080/api/v1/prime/list/11
+  
+  Response Sample: 
+  
+  {
+    "statusCode" : 200,
+    "responseType" : "SUCCESS",
+    "message" : "Found 5 prime numbers for 11 upper limit",
+    "primeNumbers" : [ 2, 3, 5, 7, 11 ]
+  }
